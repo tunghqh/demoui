@@ -1,0 +1,45 @@
+
+.affi__area {
+    position: relative;
+    height: 590px;
+    padding: 260px 0 212px 0;
+}
+.aff__img{
+    position: absolute;
+    right: 0px;
+    bottom: 60px;
+    max-width: 55%;
+}
+.affi__container {
+    position: absolute;
+    left: 300px;
+    top: 70px;
+}
+
+.affiliate-process {
+    padding: 0px 0px 112px;
+    background: #0b122e;
+    margin-top: -80px;
+
+}
+.single__process{
+    padding: 40px 40px 39px;
+    background: #141e47;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease-in;
+    margin: 10px;
+    border-radius: 2px;
+    transform: translateY(-5%);
+}
+.single__process:hover {
+    transform: translateY(-10%);
+}
+.single__process .title{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 2.6rem;
+}
+.single__process-ss {
+    height: 380px;
+}

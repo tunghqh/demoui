@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/affiliate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <!-- <div class="grid">
+                <div class="header__nav">
+                    <ul class="nav__left-list">
+                        <li class="nav__item nav__item-separate">
+                            <i class="fas fa-headphones-alt"></i>
+                            Support
+                        </li>
+                        <li class="nav__item">
+                            <i class="fas fa-envelope"></i>
+                            support@gmail.com
+                        </li>
+                    </ul>
+                    <ul class="nav__right-list">
+                        <li class="sign-in nav__item btn">
+                            <span class="btn_span"></span>
+                            <i class="fas fa-user"></i>
+                            <p class="btn__title">Sign In</p>
+                          
+                        </li>
+                        <li class="sign-up nav__item btn">
+                            <span class="btn_span"></span>
+                            <i class="fas fa-user"></i>
+                            <p class="btn__title">Sign Up</p>
+                        </li>
+                    </ul>
+                </div>    
+            </div> -->
+
+            <div class="header__menu">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/img/logo-removebg-preview.png" alt="">
+                </a>
+                <ul class="menu__list">
+                    <a class="menu__link" href="about.html">
+                        <li class="menu__item">ABOUT</li>
+                    </a>
+                    <a href="affiliate.html" class="menu__link">
+                        <li class="menu__item">AFFILIATE</li>
+                    </a>
+                    <a href="result.html" class="menu__link">
+                        <li class="menu__item">MY TICKET</li>
+                    </a>
+                    <a href="checkresult.html" class="menu__link">
+                        <li class="menu__item">CHECK RESULT</li>
+                    </a>
+                </ul>
+            
+            </div>
+        </header>
+        <div class="affi__area">
+            <img src="../assets/img/affi/affiliate.png" alt="" class="aff__img">
+            <div class="affi__container">
+                <div class="grid__row">
+                    <div class="col-12">
+                        <h4 class="title">AFFILIATE</h4>
+                        <ul class="lead__list">
+                            <li class="lead__item">
+                                <i class="fas fa-home"></i>
+                                Home
+                            </li>
+                            <li class="lead__item">
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="lead__item">
+                                Affiliate
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="affiliate-process">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="col-4">
+                        <div class="single__process">
+                            <img src="../assets/img/affi/ps1.png" alt="" class="prs__img">
+                            <h4 class="title">INVITE</h4>
+                            <p class="text">Use your referral link to invite your friends to join Etmjackpot</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="single__process single__process-ss">
+                            <img src="../assets/img/affi/ps2.png" alt="" class="prs__img">
+                            <h4 class="title">PROMOTE</h4>
+                            <p class="text">Promote Etmjackpot on social networks</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="single__process">
+                            <img src="../assets/img/affi/ps3.png" alt="" class="prs__img">
+                            <h4 class="title">REWARDS</h4>
+                            <p class="text">Whenever your referrals buy a ticket, you get 5% bonus from it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__content">
+                JACKPOT is a brand name of Ethersmart Gaming N.V. 18+ to play, email: support@gmail.com
+            </div>
+            <div class="coppyrigth">Copyright © 2021.All Rights Reserved By 
+                <a href="#">HIHIHIH</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(e){
+            $('.btn').on('mouseenter',function(e){
+                x = e.pageX - $(this).offset().left;
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y , left:x})
+            })
+            
+            $('.btn').on('mouseout',function(e){
+                x = e.pageX - $(this).offset().left;
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y , left:x})
+            })
+        })
+    </script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

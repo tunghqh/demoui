@@ -1,0 +1,38 @@
+
+.mytiket-area {
+    margin-top: 50px;
+    margin-left: 175px;
+}
+.tiket {
+    background-color:#0e1833;
+    box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 40%);
+    border-radius: 2px;
+    margin: 20px 10px 0;
+    transition: all 0.3s ease-in;
+
+}
+.tiket:hover {
+    transform: translateY(-5%);
+}
+.tk__logo {
+    width: 113px;
+    height: 112px;
+    display: flex;
+    margin: auto;
+}
+.date_time{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-align: center;
+}
+.power__play {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tiket-buy {
+    display: flex;
+    margin: auto;
+    padding-left: 35px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/affiliate.css">
+    <link rel="stylesheet" href="../assets/css/check.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <!-- <div class="grid">
+                <div class="header__nav">
+                    <ul class="nav__left-list">
+                        <li class="nav__item nav__item-separate">
+                            <i class="fas fa-headphones-alt"></i>
+                            Support
+                        </li>
+                        <li class="nav__item">
+                            <i class="fas fa-envelope"></i>
+                            support@gmail.com
+                        </li>
+                    </ul>
+                    <ul class="nav__right-list">
+                        <li class="sign-in nav__item btn">
+                            <span class="btn_span"></span>
+                            <i class="fas fa-user"></i>
+                            <p class="btn__title">Sign In</p>
+                          
+                        </li>
+                        <li class="sign-up nav__item btn">
+                            <span class="btn_span"></span>
+                            <i class="fas fa-user"></i>
+                            <p class="btn__title">Sign Up</p>
+                        </li>
+                    </ul>
+                </div>    
+            </div> -->
+
+            <div class="header__menu">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/img/logo-removebg-preview.png" alt="">
+                </a>
+                <ul class="menu__list">
+                    <a class="menu__link" href="about.html">
+                        <li class="menu__item">ABOUT</li>
+                    </a>
+                    <a href="affiliate.html" class="menu__link">
+                        <li class="menu__item">AFFILIATE</li>
+                    </a>
+                    <a href="result.html" class="menu__link">
+                        <li class="menu__item">MY TICKET</li>
+                    </a>
+                    <a href="checkresult.html" class="menu__link">
+                        <li class="menu__item">CHECK RESULT</li>
+                    </a>
+                </ul>
+            
+            </div>
+        </header>
+        <div class="check-area grid">
+            <form action="" method="POST">
+                <div class="grid__row">
+                    <div class="col-6 col-8">
+                        <input type="text" class="form-control" placeholder="Transaction Hash">
+                    </div>
+                    <div class="btn-pink btn btn__check">
+                     <p class="btn__title">CHECK RESULT</p>
+                 </div>
+                </div>
+            </form>
+            <div class="grid__row center">
+                <div class="fair_about">
+                    <h4>How the winning combination is generated?</h4>
+                    <span class="text">
+                        Each of these sequences of 4 (beginning with the tail) is then converted to a number using NHEX with base 16:(3493)16 = (13459)10
+Then the number 13459 is divided modulo by 51, and the remainder is taken as one of the balls:13459 mod 51 = 263 x 51 + 46
+Consequently, the first ball -46
+We repeat this procedure 5 times and discard the number that is already in the set. For the last ball, we simply use instead of mod 51.
+                    </span>
+                    <div class="check__link">
+                        <a class="linked" href="">
+                            <i class="fas fa-link"></i>
+                            More about Hexadecimal (Article from Wikipedia)
+                        </a><br>
+                        <a class="linked" href="">
+                            <i class="fas fa-link"></i>
+                            Hexadecimal to Decimal Converter
+                        </a>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <footer class="footer">
+            <div class="footer__content">
+                JACKPOT is a brand name of Ethersmart Gaming N.V. 18+ to play, email: support@gmail.com
+            </div>
+            <div class="coppyrigth">Copyright © 2021.All Rights Reserved By 
+                <a href="#">HIHIHIH</a>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
