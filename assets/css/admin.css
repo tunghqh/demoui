@@ -1,0 +1,26 @@
+.admin_control {
+    margin-left: 500px;
+    height: 500px;
+    position: relative;
+}
+.time-dial {
+    margin-left: 160px;
+}
+.number_area {
+    font-size: 5rem;
+    color: var(--text-color);
+    background-color: #252f5a;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 10px;
+}
+.number, .number2, .number3, .number4,.number5, .number6 {
+    margin: auto;
+}
+.click {
+    margin: 20px;
+    position: absolute;
+    left: 275px;
+    bottom: 60px;
+}

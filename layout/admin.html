@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/affiliate.css">
+    <link rel="stylesheet" href="../assets/css/result.css">
+    <link rel="stylesheet" href="../assets/css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <!-- <div class="grid">
+                <div class="header__nav">
+                    <ul class="nav__left-list">
+                        <li class="nav__item nav__item-separate">
+                            <i class="fas fa-headphones-alt"></i>
+                            Support
+                        </li>
+                        <li class="nav__item">
+                            <i class="fas fa-envelope"></i>
+                            support@gmail.com
+                        </li>
+                    </ul>
+                    <ul class="nav__right-list">
+                        <li class="sign-in nav__item btn">
+                            <span class="btn_span"></span>
+                            <i class="fas fa-user"></i>
+                            <p class="btn__title">Sign In</p>
+                          
+                        </li>
+                        <li class="sign-up nav__item btn">
+                            <span class="btn_span"></span>
+                            <i class="fas fa-user"></i>
+                            <p class="btn__title">Sign Up</p>
+                        </li>
+                    </ul>
+                </div>    
+            </div> -->
+
+            <div class="header__menu">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/img/logo-removebg-preview.png" alt="">
+                </a>
+                <ul class="menu__list">
+                    <a class="menu__link" href="about.html">
+                        <li class="menu__item">ABOUT</li>
+                    </a>
+                    <a href="affiliate.html" class="menu__link">
+                        <li class="menu__item">AFFILIATE</li>
+                    </a>
+                    <a href="result.html" class="menu__link">
+                        <li class="menu__item">MY TICKET</li>
+                    </a>
+                    <a href="checkresult.html" class="menu__link">
+                        <li class="menu__item">CHECK RESULT</li>
+                    </a>
+                </ul>
+            
+            </div>
+        </header>
+        <div class="admin_control">
+            <div class="time-dial">
+                <span class="count">
+                    <span class="count__text">Hours</span>
+                    <span class="count__time hours"></span>
+                </span>
+                <span class="count">
+                    <span class="count__text">Minutes</span>
+                    <span class="count__time minutes"></span>
+                </span>
+                <span class="count">
+                    <span class="count__text">Seconds</span>
+                    <span class="count__time seconds"></span>
+                </span>
+                <p class="draw">Until the next draw</p>
+            </div>
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="number_area">
+                        <p class="number">0</p>
+                    </div>           
+                    <div class="number_area">
+                        <p class="number2">0</p>
+                    </div>           
+                    <div class="number_area">
+                        <p class="number3">0</p>
+                    </div>           
+                    <div class="number_area">
+                        <p class="number4">0</p>
+                    </div>           
+                    <div class="number_area">
+                        <p class="number5">0</p>
+                    </div>           
+                    <div class="number_area">
+                        <p class="number6">0</p>
+                    </div>  
+                    <div class="click btn btn-pink" onclick="random();">
+                        <p class="btn__title" >QUAY SỐ</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>      
+        <footer class="footer">
+            <div class="footer__content">
+                JACKPOT is a brand name of Ethersmart Gaming N.V. 18+ to play, email: support@gmail.com
+            </div>
+            <div class="coppyrigth">Copyright © 2021.All Rights Reserved By 
+                <a href="#">HIHIHIH</a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function random(){
+            document.querySelector(".number").innerHTML = Math.floor(Math.random() *100)
+            document.querySelector(".number2").innerHTML = Math.floor(Math.random() *100)
+            document.querySelector(".number3").innerHTML = Math.floor(Math.random() *100)
+            document.querySelector(".number4").innerHTML = Math.floor(Math.random() *100)
+            document.querySelector(".number5").innerHTML = Math.floor(Math.random() *100)
+            document.querySelector(".number6").innerHTML = Math.floor(Math.random() *100)
+        }
+    </script>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
