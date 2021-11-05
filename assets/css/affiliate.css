@@ -2,7 +2,6 @@
 .affi__area {
     position: relative;
     height: 590px;
-    padding: 260px 0 212px 0;
 }
 .aff__img{
     position: absolute;
@@ -12,8 +11,8 @@
 }
 .affi__container {
     position: absolute;
-    left: 300px;
-    top: 70px;
+    left: 60px;
+    top: -70px;
 }
 
 .affiliate-process {

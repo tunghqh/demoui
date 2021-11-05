@@ -1,7 +1,9 @@
 
 
 .left__img {
-    margin-left: 130px;
+    position: absolute;
+    top: -240px;
+    left: 60px;
 }
 .title{
     font-size: 60px;
